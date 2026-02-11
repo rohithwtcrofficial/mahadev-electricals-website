@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Mahadev Electricals | Professional Electrical Services in Coimbatore</title>
+    <meta name="description" content="Expert electrical services from Mahadev Electricals. Authorized service provider for V-Guard, Havells, Fybros, Kundan, Lisha, GM, and Legrand in Singanallur, Coimbatore.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; overflow-x: hidden; }
+        h1,h2,h3,h4,h5,h6 { font-family: 'Outfit', sans-serif; }
+        html { scroll-behavior: smooth; }
+        .navbar-scrolled { background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); }
+        .btn-primary { background: linear-gradient(135deg, #0EA5E9, #0284C7); transition: all 0.3s ease; }
+        .btn-primary:hover { background: linear-gradient(135deg, #0284C7, #0369A1); transform: scale(1.05); }
+        .whatsapp-float { position: fixed; bottom: 30px; right: 30px; z-index: 1000; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+        .mobile-menu { transform: translateX(100%); transition: transform 0.3s ease; }
+        .mobile-menu.active { transform: translateX(0); }
+    </style>
+</head>
+<body class="bg-white">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300 bg-slate-900">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-sky-500 to-orange-500 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-bolt text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-white font-bold text-xl">Mahadev Electricals</h1>
+                        <p class="text-sky-400 text-xs">Singanallur, Coimbatore</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-white hover:text-sky-400 transition">Home</a>
+                    <a href="about.html" class="text-white hover:text-sky-400 transition">About</a>
+                    <a href="products.html" class="text-white hover:text-sky-400 transition">Products</a>
+                    <a href="services.html" class="text-sky-400 font-semibold">Services</a>
+                    <a href="contact.html" class="text-white hover:text-sky-400 transition">Contact</a>
+                </div>
+                <a href="tel:+919363387963" class="hidden md:block btn-primary text-white px-6 py-2 rounded-full font-semibold">
+                    <i class="fas fa-phone mr-2"></i> Call Now
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden text-white text-2xl"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu md:hidden fixed top-0 right-0 w-64 h-full bg-slate-900 shadow-xl">
+            <div class="p-6">
+                <button id="close-menu" class="text-white text-2xl mb-8"><i class="fas fa-times"></i></button>
+                <div class="flex flex-col space-y-6">
+                    <a href="index.html" class="text-white hover:text-sky-400 transition">Home</a>
+                    <a href="about.html" class="text-white hover:text-sky-400 transition">About</a>
+                    <a href="products.html" class="text-white hover:text-sky-400 transition">Products</a>
+                    <a href="services.html" class="text-sky-400 font-semibold">Services</a>
+                    <a href="contact.html" class="text-white hover:text-sky-400 transition">Contact</a>
+                    <a href="tel:+919363387963" class="btn-primary text-white px-6 py-3 rounded-full font-semibold text-center">
+                        <i class="fas fa-phone mr-2"></i> Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-sky-600 to-orange-600 pt-32 pb-16 px-4">
+        <div class="container mx-auto text-center text-white">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">Our Services</h1>
+            <p class="text-xl text-sky-100">Professional Support & Expert Solutions</p>
+        </div>
+    </section>
+
+    <!-- Authorized Brands -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Authorized Dealer For</h2>
+                <p class="text-gray-600 text-lg">Premium brands you can trust</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6">
+                <div class="bg-gradient-to-br from-sky-100 to-sky-200 rounded-xl p-6 text-center card-hover">
+                    <div class="text-4xl text-sky-600 mb-3"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="font-bold text-slate-900">V-Guard</h3>
+                    <p class="text-xs text-gray-600 mt-1">Electrical</p>
+                </div>
+                <div class="bg-gradient-to-br from-orange-100 to-orange-200 rounded-xl p-6 text-center card-hover">
+                    <div class="text-4xl text-orange-600 mb-3"><i class="fas fa-bolt"></i></div>
+                    <h3 class="font-bold text-slate-900">Havells</h3>
+                    <p class="text-xs text-gray-600 mt-1">Electrical</p>
+                </div>
+                <div class="bg-gradient-to-br from-sky-100 to-sky-200 rounded-xl p-6 text-center card-hover">
+                    <div class="text-4xl text-sky-600 mb-3"><i class="fas fa-plug"></i></div>
+                    <h3 class="font-bold text-slate-900">Fybros</h3>
+                    <p class="text-xs text-gray-600 mt-1">Electrical</p>
+                </div>
+                <div class="bg-gradient-to-br from-orange-100 to-orange-200 rounded-xl p-6 text-center card-hover">
+                    <div class="text-4xl text-orange-600 mb-3"><i class="fas fa-lightbulb"></i></div>
+                    <h3 class="font-bold text-slate-900">Kundan</h3>
+                    <p class="text-xs text-gray-600 mt-1">Electrical</p>
+                </div>
+                <div class="bg-gradient-to-br from-sky-100 to-sky-200 rounded-xl p-6 text-center card-hover">
+                    <div class="text-4xl text-sky-600 mb-3"><i class="fas fa-star"></i></div>
+                    <h3 class="font-bold text-slate-900">Lisha</h3>
+                    <p class="text-xs text-gray-600 mt-1">Electrical</p>
+                </div>
+                <div class="bg-gradient-to-br from-orange-100 to-orange-200 rounded-xl p-6 text-center card-hover">
+                    <div class="text-4xl text-orange-600 mb-3"><i class="fas fa-certificate"></i></div>
+                    <h3 class="font-bold text-slate-900">GM</h3>
+                    <p class="text-xs text-gray-600 mt-1">Electrical</p>
+                </div>
+                <div class="bg-gradient-to-br from-sky-100 to-sky-200 rounded-xl p-6 text-center card-hover">
+                    <div class="text-4xl text-sky-600 mb-3"><i class="fas fa-award"></i></div>
+                    <h3 class="font-bold text-slate-900">Legrand</h3>
+                    <p class="text-xs text-gray-600 mt-1">Electrical</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services We Offer -->
+    <section class="py-20 bg-slate-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">What We Offer</h2>
+                <p class="text-gray-600 text-lg">Comprehensive solutions for all your needs</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-sky-100 rounded-xl flex items-center justify-center mb-4">
+                        <i class="fas fa-shopping-cart text-sky-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Product Sales</h3>
+                    <p class="text-gray-600">Wide range of electrical supplies, PVC pipes, tiles, sanitary wares, doors, and paints from authorized brands</p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
+                        <i class="fas fa-comments text-orange-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Expert Consultation</h3>
+                    <p class="text-gray-600">Professional guidance to help you choose the right products for your specific requirements</p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-sky-100 rounded-xl flex items-center justify-center mb-4">
+                        <i class="fas fa-truck text-sky-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Fast Delivery</h3>
+                    <p class="text-gray-600">Quick and reliable delivery service to ensure your projects stay on schedule</p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
+                        <i class="fas fa-tools text-orange-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Installation Support</h3>
+                    <p class="text-gray-600">Guidance and recommendations for proper installation of electrical products</p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-sky-100 rounded-xl flex items-center justify-center mb-4">
+                        <i class="fas fa-file-invoice text-sky-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Bulk Orders</h3>
+                    <p class="text-gray-600">Special pricing and dedicated support for contractors and bulk purchases</p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
+                        <i class="fas fa-headset text-orange-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">After-Sales Support</h3>
+                    <p class="text-gray-600">Continued assistance and support even after your purchase</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Our Services -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4">Why Choose Our Services?</h2>
+                <p class="text-gray-600 text-lg">Experience the difference</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-sky-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-check-circle text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Genuine Products</h3>
+                    <p class="text-gray-600">100% authentic products from authorized dealers</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-tags text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Best Prices</h3>
+                    <p class="text-gray-600">Competitive pricing on all products and services</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-sky-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-tie text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Expert Team</h3>
+                    <p class="text-gray-600">Knowledgeable professionals ready to help</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clock text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Quick Service</h3>
+                    <p class="text-gray-600">Fast and efficient service delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-sky-600 to-orange-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-6">Ready to Get Started?</h2>
+            <p class="text-xl mb-8 text-sky-100">Contact us today for expert assistance</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-sky-600 px-8 py-4 rounded-full font-semibold hover:bg-sky-50 transition">
+                    <i class="fas fa-envelope mr-2"></i> Contact Us
+                </a>
+                <a href="tel:+919363387963" class="bg-orange-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-orange-600 transition">
+                    <i class="fas fa-phone mr-2"></i> Call: 9363387963
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-sky-500 to-orange-500 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-bolt text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Mahadev Electricals</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">Your trusted partner for all electrical and construction needs.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-sky-400 transition">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-sky-400 transition">About</a></li>
+                        <li><a href="products.html" class="text-gray-300 hover:text-sky-400 transition">Products</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-sky-400 transition">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-sky-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact</h4>
+                    <ul class="space-y-3 text-gray-300">
+                        <li><i class="fas fa-phone text-sky-400 mr-2"></i> <a href="tel:+919363387963">9363387963</a></li>
+                        <li><i class="fas fa-envelope text-sky-400 mr-2"></i> <a href="mailto:mahadevelectricalscoimbatore@gmail.com">Email Us</a></li>
+                        <li><i class="fas fa-map-marker-alt text-sky-400 mr-2"></i> Singanallur, Coimbatore</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Business Hours</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>Mon-Sat: 9:00 AM - 8:00 PM</li>
+                        <li>Sunday: 9:00 AM - 2:00 PM</li>
+                    </ul>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="https://wa.me/919363387963" class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mahadev.groupcbe._?igsh=MWVwZnNsbnAyZDA2cQ%3D%3D&utm_source=qr" class="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-700 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Mahadev Electricals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/919363387963" class="whatsapp-float w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-2xl hover:bg-green-600 transition">
+        <i class="fab fa-whatsapp text-white text-3xl"></i>
+    </a>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) navbar.classList.add('navbar-scrolled');
+            else navbar.classList.remove('navbar-scrolled');
+        });
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMenu = document.getElementById('close-menu');
+        mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.add('active'));
+        closeMenu.addEventListener('click', () => mobileMenu.classList.remove('active'));
+        document.addEventListener('click', (e) => {
+            if (!mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
