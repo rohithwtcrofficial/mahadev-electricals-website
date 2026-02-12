@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Mahadev Electricals</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Visit Mahadev Electricals homepage for electrical products in Singanallur, Coimbatore.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://mahadevelectricals.com/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Manrope', sans-serif; background: #0A1628; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; overflow: hidden; }
+        h1, h2 { font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; }
+        .electric-grid {
+            position: fixed; inset: 0; z-index: 0;
+            background-image: linear-gradient(rgba(14,165,233,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(14,165,233,0.04) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        .glow { animation: glow 2s ease-in-out infinite alternate; }
+        @keyframes glow {
+            from { text-shadow: 0 0 20px rgba(14,165,233,0.5); }
+            to   { text-shadow: 0 0 40px rgba(14,165,233,0.9), 0 0 80px rgba(14,165,233,0.4); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+        .float { animation: float 3s ease-in-out infinite; }
+        .btn-electric {
+            background: linear-gradient(135deg, #0EA5E9, #0284C7);
+            transition: all 0.3s ease;
+        }
+        .btn-electric:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(14,165,233,0.5); }
+        .btn-fire {
+            background: linear-gradient(135deg, #FF6B35, #FF4500);
+            transition: all 0.3s ease;
+        }
+        .btn-fire:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(255,107,53,0.5); }
+    </style>
+</head>
+<body>
+    <div class="electric-grid"></div>
+
+    <div class="relative z-10 max-w-2xl mx-auto">
+        <!-- Icon -->
+        <div class="float mb-8">
+            <div class="w-32 h-32 bg-gradient-to-br from-sky-500 to-orange-500 rounded-full flex items-center justify-center mx-auto shadow-2xl">
+                <i class="fas fa-bolt text-white text-5xl"></i>
+            </div>
+        </div>
+
+        <!-- 404 Number -->
+        <h1 class="glow text-9xl font-bold text-sky-400 mb-4">404</h1>
+
+        <!-- Message -->
+        <h2 class="text-3xl text-white mb-4">PAGE NOT FOUND</h2>
+        <p class="text-gray-400 text-lg mb-10 leading-relaxed">
+            Looks like this circuit is broken! The page you're looking for doesn't exist or has been moved.
+        </p>
+
+        <!-- Navigation Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <a href="/" class="btn-electric text-white px-8 py-4 rounded-full font-bold text-lg inline-flex items-center justify-center space-x-2">
+                <i class="fas fa-home"></i>
+                <span>Back to Home</span>
+            </a>
+            <a href="tel:+919363387963" class="btn-fire text-white px-8 py-4 rounded-full font-bold text-lg inline-flex items-center justify-center space-x-2">
+                <i class="fas fa-phone"></i>
+                <span>Call Us</span>
+            </a>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="/products.html" class="text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-2 transition">
+                <i class="fas fa-box text-sm"></i> Products
+            </a>
+            <span class="text-gray-600">|</span>
+            <a href="/services.html" class="text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-2 transition">
+                <i class="fas fa-tools text-sm"></i> Services
+            </a>
+            <span class="text-gray-600">|</span>
+            <a href="/about.html" class="text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-2 transition">
+                <i class="fas fa-info-circle text-sm"></i> About
+            </a>
+            <span class="text-gray-600">|</span>
+            <a href="/contact.html" class="text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-2 transition">
+                <i class="fas fa-envelope text-sm"></i> Contact
+            </a>
+        </div>
+
+        <!-- Brand -->
+        <div class="mt-12 flex items-center justify-center space-x-3">
+            <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-orange-500 rounded-lg flex items-center justify-center">
+                <i class="fas fa-bolt text-white"></i>
+            </div>
+            <span class="text-white font-bold" style="font-family:'Bebas Neue',sans-serif;letter-spacing:2px;">MAHADEV ELECTRICALS</span>
+        </div>
+        <p class="text-gray-600 text-sm mt-2">Singanallur, Coimbatore | Trusted Since 2012</p>
+    </div>
+</body>
+</html>
