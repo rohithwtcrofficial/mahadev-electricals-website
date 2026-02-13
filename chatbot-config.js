@@ -15,7 +15,7 @@ const CHATBOT_CONFIG = {
   // Tawk.to Integration (Sign up at https://www.tawk.to/)
   tawkPropertyId: '698f09b41f51081c3676f3af', // Add your Tawk.to Property ID here
   tawkWidgetId: '1jhbbrqu4',   // Add your Tawk.to Widget ID here
-  useTawkTo: true,   // Set to true when you have Tawk.to credentials
+  useTawkTo: false,   // Set to true when you have Tawk.to credentials
   
   // Business Information
   businessName: 'Mahadev Electricals',
